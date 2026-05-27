@@ -1,0 +1,15 @@
+- Installed SearXNG Docker image and ran the container locally
+- Configured SearXNG to allow JSON responses (enabled json format in settings.yml)
+- Created a Python project with a virtual environment (.venv)
+- Installed and configured Playwright with Chromium
+- Implemented basic communication between Python and SearXNG using requests
+- Performed product searches through SearXNG and parsed JSON search results
+- Used Playwright to open product/store pages automatically
+- Learned basic Playwright selectors and DOM inspection using page.pause()
+- Successfully extracted product price and discount price from a product page using HTML attributes
+- Started designing project architecture for:
+  - search client
+  - extractor routing
+  - site-specific extractors
+  - future agent-based fallback extraction
+
